@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video for wedding card</title>
+    <style>
+                *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            overflow: hidden;
+        }
+        .video video{
+            width: 100vw; 
+            height: auto;
+        }
+        .image img {
+            width: 100%;
+            position: relative;
+            /* left: -100px; */
+            margin: auto;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="video" id="video">
+        <video autoplay muted loop>
+            <source type="video/mp4" src="mrg.mp4"></source>
+            <source type="video/ogg" src="mrg.ogg"></source>
+        </video>
+    </div>
+    <div class="image">
+        <img src="test2.jpg">
+    </div>
+</body>
+</html>
