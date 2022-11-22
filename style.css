@@ -5,6 +5,9 @@
 body{
     overflow: hidden;
 }
+audio{
+    display: none;
+}
 .container{
     background:url(invitation.jpg) no-repeat;
     background-size: cover;
