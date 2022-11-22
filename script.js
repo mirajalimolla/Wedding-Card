@@ -4,8 +4,10 @@ let search = new URLSearchParams(url);
 let url_value = search.get("n");
 document.querySelector("#name").innerHTML = url_value;
 
-// Animation Effects
+// Animation Effects and Video setup
+document.querySelector("audio").pause();
 function showVideo(){
     document.querySelector("#container_all").style.display="none";
     document.querySelector("#viedo_section").style.display="block";
+    document.querySelector("audio").play();
 }
