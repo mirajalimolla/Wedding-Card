@@ -1,0 +1,67 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    background:url(invitation.jpg) no-repeat;
+    /* background-position: center center; */
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    align-items: center;
+    position: fixed;
+}
+.content{
+    text-align: center;
+    margin-right: 118px;
+    color: white;
+    font-family: cursive;
+    display: grid;
+    /* justify-content: end; */
+}
+.content h1{
+    font-size: 50px;
+}
+.content h2{
+    margin: 14px auto;
+    width: 30rem;
+}
+.content button{
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 7px;
+    background: red;
+    color: white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 900;
+}
+.content_container{
+    text-align: center;
+    width: 100vw;
+}
+
+@media only screen and (max-width:1200px){
+    body{
+        overflow: hidden;
+    }
+}
+@media only screen and (max-width:660px){
+    
+}
+@media only screen and (max-width:535px){
+    .content h1{
+        font-size: 42px;
+    }
+    .content h2{
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width:445px){
+    .content h2{
+        width: 305px;
+        margin: 12px -22px;
+    }
+}
