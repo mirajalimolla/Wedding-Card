@@ -4,7 +4,6 @@
 }
 .container{
     background:url(invitation.jpg) no-repeat;
-    /* background-position: center center; */
     background-size: cover;
     width: 100vw;
     height: 100vh;
@@ -18,7 +17,6 @@
     color: white;
     font-family: cursive;
     display: grid;
-    /* justify-content: end; */
 }
 .content h1{
     font-size: 50px;
