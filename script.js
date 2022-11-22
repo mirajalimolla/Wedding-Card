@@ -1,5 +1,3 @@
-// Play the audio
-
 // This is a name chenger
 const url = window.location.search;
 let search = new URLSearchParams(url);
