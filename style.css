@@ -2,6 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
+body{
+    overflow: hidden;
+}
+audio{
+    display: none;
+}
 .container{
     background:url(invitation.jpg) no-repeat;
     background-size: cover;
@@ -38,6 +44,21 @@
 .content_container{
     text-align: center;
     width: 100vw;
+}
+
+/* Design the video */
+#viedo_section{
+    display: none;
+}
+.video video{
+    width: 100vw; 
+    height: auto;
+}
+.image img {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    display: block;
 }
 
 @media only screen and (max-width:1200px){
