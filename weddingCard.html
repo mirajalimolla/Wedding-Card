@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Marriage Invitation Card</title>
+</head>
+<body>
+    <!-- Background Audio -->
+    <audio autoplay controls loop>
+        <source src="bgSound.mp3">
+    </audio>
+    
+    <!-- Content Bar -->
+    <section id="container_all">
+        <div class="container">
+            <div class="content">
+                <div class="content_container">
+                    <h1>Hi, <b id="name"></b></h1>
+                    <h2>We cordially invite you to our wedding ceremony</h2>
+                    <button onclick="showVideo()">Open the invitation</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Bar -->
+    <section id="viedo_section">
+        <div class="video">
+            <video autoplay muted loop>
+                <source type="video/mp4" src="mrg.mp4"></source>
+                <source type="video/ogg" src="mrg.ogg"></source>
+            </video>
+        </div>
+        <div class="image">
+            <img src="test2.jpg">
+        </div>
+    </section>
+    
+<script src="script.js"></script>
+</body>
+</html>

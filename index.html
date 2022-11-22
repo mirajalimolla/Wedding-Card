@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Set The Name</title>
+    <style>
+        body{
+            background: purple;
+            color: red;
+            display: grid;
+            place-items: center;
+            height: 100vh;
+        }
+        .name{
+            padding: 10px;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <div class="form">
+        <input class="name" type="text" placeholder="Enter the name if you are set the website" id="set">
+        <input class="submit" type="submit" onclick="submit()" value="Submit">
+    </div>
+    <script>
+        function submit(){
+            let set = document.querySelector('#set').value;
+            location.href = `weddingCard.html?n=${set}`;
+        }
+    </script>
+</body>
+</html>
