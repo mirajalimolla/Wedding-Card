@@ -48,6 +48,9 @@
         overflow: hidden;
     }
 }
+@media only screen and (max-width:660px){
+    
+}
 @media only screen and (max-width:535px){
     .content h1{
         font-size: 40px;
@@ -57,7 +60,16 @@
     }
 }
 @media only screen and (max-width:425px){
+    .content h1{
+        font-size: 33px;
+    }
+    .content h2{
+        font-size: 13px;
+        width: 305px;
+    }
+}
+@media only screen and (max-width:370px){
     .content{
-        margin-right: 10px;
+        left: 0;
     }
 }
