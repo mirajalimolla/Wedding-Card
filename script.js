@@ -14,5 +14,4 @@ document.querySelector("#name").innerHTML = url_value;
 function showVideo(){
     document.querySelector("#container_all").style.display="none";
     document.querySelector("#viedo_section").style.display="block";
-    play();
 }
